@@ -1,6 +1,6 @@
 //打印上半金字塔
 #include <stdio.h>	
-int main()	
+void uppyramid()	
 {	
   int i,j,rows;	
   printf("Enter the number of rows: ");	
@@ -17,7 +17,7 @@ int main()
 }
 
 //打印整金字塔
-int main()	
+void wholepyramid()	
 {	
   int i,space,rows,k=0;	
   printf("Enter the number of rows: ");	
@@ -37,4 +37,10 @@ int main()
     printf("\n");	
   }	
   return 0;	
+}
+
+int main(){
+  void uppyramid();
+  void wholepyramid();
+  return 0;
 }
